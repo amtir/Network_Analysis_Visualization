@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+.header_footer{
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+    clear:both;
+    background: #F0F0F0 no-repeat center; 
+    padding: .1em .0em;
+	margin: 0px auto;
+}
+
+#tabs {
+	border: 3px solid blue;
+	width: 1200px;
+	height: 900px;
+	margin: 2%;
+}
+
+#tabs li {
+    display: inline;
+}
+
+#tabs li a {
+    border: 3px solid blue;
+    padding: 4px 6px;
+    text-decoration: none;    
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+#tabs li.active a {
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    padding: 4px 6px 5px 6px;
+    border-bottom: none;
+}
+#tabs li.active a:hover {
+    background-color: #eeeeee;
+    padding: 4px 6px 5px 6px;
+    border-bottom: none;
+}
+
+
+#brandomwalk{
+
+	padding: 15px;
+}
+
+#kcore{
+	
+	padding: 15px;
+}
+
+#procoreperif{
+	
+	padding: 15px;
+}
+
+#degreeProfile{
+	
+	padding: 15px;
+}

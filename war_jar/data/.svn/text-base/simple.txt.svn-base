@@ -1,0 +1,19 @@
+a b
+a c
+a d
+b c
+b d
+c d
+b e
+b f
+e f
+b g
+d g
+g h
+d i
+c j
+c k
+@knownProminentNodes
+b
+c
+d

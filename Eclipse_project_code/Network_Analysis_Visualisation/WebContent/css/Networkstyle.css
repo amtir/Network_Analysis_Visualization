@@ -1,0 +1,535 @@
+@CHARSET "UTF-8";
+
+
+table,th,td
+{
+	border:1px 
+	solid #AFE38F
+}
+
+.header_footer{
+	width: 1200px;
+	color: #AFE38F;
+	text-align: center;
+	border: 3px solid #AFE38F;
+	border-radius: 5px;
+    clear:both;
+    background: black no-repeat center; 
+	padding: 15px;
+  	margin: 0 15px 15px 15px;
+  	margin-left:auto;
+  	margin-right:auto;
+}
+
+body { 
+	background-color: #1E211E   ;
+	font: 14px helvetica neue, helvetica, arial, sans-serif;
+	min-width: 660px;
+  	padding: 2%;
+  	margin: 15px;
+
+}
+
+#tabs {
+	border: 3px solid #AFE38F;
+	width: 1200px;
+	height: 720px;
+	margin: 2%;
+	margin-left:auto;
+  	margin-right:auto;
+}
+
+
+#settings{
+	  /*   border: 3px solid #AFE38F;   */
+	border-radius: 5px;
+	width: 200px;
+	height: 600px;
+	/* position: relative; */
+	float: left;
+	padding: 0%;
+	margin: 15px auto;
+}
+
+#idLegend{
+	
+	   /* border: 3px solid #AFE38F;  */   /*  used to display the layout like tables to position elements*/ 
+	float: left;
+	width: 60px;
+	height: 80px;
+	padding: 0px;
+	margin:  0px;
+	font-size:small; /* xx-small; */
+	font-weight:bold; 		
+}
+
+#listNodes{	
+	 /*  border: 3px solid #AFE38F;  */     /*  used to display the layout like tables to position elements*/ 
+	float: left;
+	width: 125px;
+	height: 260px;
+	padding: 0px;
+	margin:  0px;	
+	font-weight:bold; 	
+	font-size:small; /* xx-small; */
+}
+
+#laySelect{
+		
+/* 	border: 3px solid #AFE38F;   */
+	border-radius: 5px; 
+	float: left;
+	width: 130px;
+	height: 30px;
+	padding: 0px;
+	margin:   0px;
+}
+
+#radio{
+	font-size:small; /* xx-small; */		
+	/* border: 3px solid #AFE38F; */   /*  used to display the layout like tables to position elements*/ 
+	float: left;
+	width: 200px;
+	height: 70px;
+	padding: 30px 0px;
+	margin:  0px;	
+}
+
+#allNodes{
+	/* border: 3px solid #AFE38F; */
+	float: left; 
+	width: 150px;
+	height: 20px;
+	padding: 0px;
+	margin:  5px;
+	border-radius: 5px;
+}
+
+#kcoreOnly{
+/* 	border: 3px solid #AFE38F; */
+	float: left; 
+	width: 150px;
+	height: 20px;
+	padding: 0px;
+	margin:  5px;
+	border-radius: 5px;	
+}
+
+#box_layout{
+/* 	 border: 3px solid #AFE38F; */     /*  used to display the layout like tables to position elements*/ 
+	float: left;
+	width: 150px;
+	height: 80px;
+	padding: 0px;
+	margin:  0px;
+}
+
+#boxPlotlayout{
+ 	/* border: 3px solid #AFE38F;     */
+	float: left;
+	width: 200px;
+	height: 120px;
+	padding: 0px;
+	margin:  0px;
+	z-index:1;
+}
+
+#densityPlotlayout{
+ 	 /*  border: 3px solid #AFE38F;  */   
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 0px;
+	margin:  0px;
+	z-index:1;
+}
+
+#boxPlotCPC{
+ 	 /*   border: 3px solid #AFE38F;    */  
+	float: left;
+	width: 200px;
+	height: 120px;
+	padding: 0px;
+	margin:  0px;
+	z-index:1;
+}
+
+#boxPlotStrength{
+ 	  /*  border: 3px solid #AFE38F;  */    
+	float: left;
+	width: 200px;
+	height: 120px;
+	padding: 0px;
+	margin:  0px;
+	z-index:1;
+}
+
+#boxPlotCompar{
+ 	border: 3px solid #AFE38F;    
+	float: left;
+	width: 200px;
+	height: 150px;
+	padding: 0px;
+	margin:  0px;
+	z-index:1;
+}
+
+#legendCorePeriphProf{
+	/* border: 3px solid #AFE38F;   */ 
+	background: black; /* Standard syntax */  
+	float: left;
+	width: 200px;
+	height: 20px;
+	padding: 0px;
+	margin:  10px 0px;
+	
+}
+
+
+#spaceMetrics{
+	/* border: 3px solid #AFE38F;    */
+	background: black; /* Standard syntax */  
+	float: left;
+	width: 200px;
+	height: 50px;
+	padding: 0px;
+	margin:  10px 0px;
+	
+}
+
+#spaceMetrics2{
+	/* border: 3px solid #AFE38F;    */
+	background: black; /* Standard syntax */  
+	float: left;
+	width: 200px;
+	height: 100px;
+	padding: 0px;
+	margin:  10px 0px;
+	
+}
+
+ #progressbar .ui-progressbar-value {
+	background-color: #ccc;
+}
+
+ .progress-label {
+color: red;
+position: absolute;
+/* left: 50%; */
+top: 4px;
+font-weight: bold;
+text-shadow: 1px 1px 0 #fff;
+}
+
+#legendVertPCP{
+	
+	background: linear-gradient(to top, white, green); /* Standard syntax */  
+	float: left;
+	width: 20px;
+	height: 170px;
+	padding: 0px;
+	margin:  90px 0px 75px 4px;
+	
+}
+
+#boxReducedLayout{
+	/*  border: 3px solid #AFE38F;  */   /*  used to display the layout like tables to position elements*/ 
+	float: left;
+	width: 90px;
+	height: 60px;
+	padding: 0px 0px;
+	margin:  0px 4px 0px 0px;
+}
+
+#spaceRoom{
+	
+/* 	border: 3px solid #AFE38F;   */  /*  used to display the layout like tables to position elements*/ 
+	float: left;  
+	width: 190px;
+	height: 10px;
+	padding: 0px;
+	margin:  0px;	
+	font-weight:bold; 	
+	font-size:small; /* xx-small; */
+	
+}
+
+#ListPromNodes{
+	
+	/* border: 3px solid #AFE38F;  */   /*  used to display the layout like tables to position elements*/ 
+	float: left;  
+	/* 
+	position: relative;
+	 top: 258px;
+	 left: 103px; */
+	width: 200px;
+	height: 160px;
+	padding: 0px;
+	margin:  0px;	
+	font-weight:bold; 	
+	font-size:small; /* xx-small; */
+	
+}
+
+#CorePeriProfNodes	{
+	/*  border: 3px solid #AFE38F;    */  /*  used to display the layout like tables to position elements*/ 
+	float: left;  
+	/* 
+	position: relative;
+	 top: 258px;
+	 left: 103px; */
+	width: 200px;
+	height: 260px;
+	padding: 0px;
+	margin:  0px;	
+	font-weight:bold; 	
+	font-size:small; /* xx-small; */
+	
+}
+
+#degNodes	{
+	/*  border: 3px solid #AFE38F;    */  /*  used to display the layout like tables to position elements*/ 
+	float: left;  
+	/* 
+	position: relative;
+	 top: 258px;
+	 left: 103px; */
+	width: 200px;
+	height: 260px;
+	padding: 0px;
+	margin:  0px;	
+	font-weight:bold; 	
+	font-size:small; /* xx-small; */
+	
+}
+
+#algoMetrics	{
+	/*  border: 3px solid #AFE38F;  */    /*  used to display the layout like tables to position elements*/ 
+	float: left;  
+	/* 
+	position: relative;
+	 top: 258px;
+	 left: 103px; */
+	width: 850px;
+	height: 40px;
+	padding: 0px; /* 2%; */
+  	margin: 0px  15px 0px 30px; 	
+	font-weight:bold; 	
+	font-size:small; /* xx-small; */	
+}
+
+#box_load_File{
+	/*  border: 3px solid #AFE38F;  */   /*  used to display the layout like tables to position elements*/ 
+	float: left;
+	width: 150px;
+	height: 50px;
+	padding: 20px 0px;
+	margin:  0px;	
+}
+
+ #spinner{
+	color: #AFE38F;
+	/* background: black; */
+	border: 3px solid #AFE38F;
+	 float: left; 
+	width: 80px;
+	height: 20px;
+	padding: 0px;
+	margin:  0px 0px 5px 0px;
+	border-radius: 5px;
+} 
+
+#spinnProb{
+ /*	color: #AFE38F;
+	background: black; */
+	border: 3px solid #AFE38F;
+	float: left; 
+	width: 80px;
+	height: 20px;
+	padding: 0px;
+	margin:  0px 0px 5px 0px;
+	border-radius: 5px;
+} 
+
+#spinnAlpha{
+	/* color: #AFE38F;
+	background: black; */
+	border: 3px solid #AFE38F;
+	 float: left; 
+	width: 80px;
+	height: 20px;
+	padding: 0px;
+	margin:  0px 0px 5px 0px;
+	border-radius: 5px;
+} 
+
+#spinnNbrIt{
+	/* color: #AFE38F;
+	background: black; */
+	border: 3px solid #AFE38F;
+	 float: left; 
+	width: 80px;
+	height: 20px;
+	padding: 0px;
+	margin:  0px 0px 5px 0px;
+	border-radius: 5px;
+} 
+
+#spinnNbrNodes{
+	/* color: #AFE38F;
+	background: black; */
+	border: 3px solid #AFE38F;
+	 float: left; 
+	width: 80px;
+	height: 20px;
+	padding: 0px;
+	margin:  0px 0px 5px 0px;
+	border-radius: 5px;
+} 
+
+#slider{
+	/* background: gray; */
+	border: 3px solid #AFE38F;
+	/* float: left; */
+	width: 80px;
+	height: 10px;
+	padding: 0px;
+	margin:  5px 0px;
+	border-radius: 5px;
+	}
+
+#loadFile{	
+	float: left;
+	width: 290px;
+	height: 140px;
+	padding: 15px;
+	margin:  15px;
+}
+
+
+#resNetGraph {
+	background-color: black   ;
+	width: 850px; /*600px; */
+	height: 570px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	border: 3px solid #AFE38F;
+	
+	padding: 0px; /* 2%; */
+  	margin: 15px  15px 15px 30px; 
+}
+
+#PCP_Graph1 {
+	background-color: black   ;
+	width: 385px; /*600px; */
+	height: 270px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	border: 3px solid #AFE38F;
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */
+}
+
+#PCP_Graph2 {
+	background-color: black   ;
+	width: 410px; /*600px; */
+	height: 270px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	border: 3px solid #AFE38F;
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */
+}
+
+
+#PCP_Graph3 {
+	background-color: black   ;
+	width: 385px; /*600px; */
+	height: 270px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	border: 3px solid #AFE38F;
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */ 
+}
+
+
+#PCP_Graph4 {
+	background-color: black   ;
+	width: 410px; /*600px; */
+	height: 270px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	border: 3px solid #AFE38F;
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */
+}
+
+#figuresMetrics{
+	
+	background-color: black   ;
+	width: 300px; /*600px; */
+	height: 550px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	/* border: 3px solid #AFE38F; */
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */
+	
+}
+		
+#GraphNodes{
+		background-color: black   ;
+	width: 520px; /*600px; */
+	height: 550px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	/* border: 3px solid #AFE38F; */
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */
+}
+			
+#degreeDistribution{
+		background-color: black   ;
+	width: 290px; /*600px; */
+	height: 270px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	/* border: 3px solid #AFE38F; */
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */
+}
+
+#Networkstatistics{
+		background-color: black   ;
+	width: 290px; /*600px; */
+	height: 270px;  /*400px; */
+	border-radius: 5px;
+	/* position:  relative;  */
+	float: left; 
+	/* border: 3px solid #AFE38F; */
+	
+	padding: 0px; /* 2%; */
+  	margin: 4px; /* 15px  15px 15px 30px;  */
+
+
+
+
+
+
+

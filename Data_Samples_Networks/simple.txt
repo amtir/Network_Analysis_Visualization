@@ -1,0 +1,27 @@
+# Simple example used to demonstrate the k-core algorithm and the periphery star network as a non-prominent node.
+a b
+a c
+a d
+b c
+b d
+c d
+b e
+b f
+e f
+b g
+d g
+g h
+d i
+c j
+c k
+k l
+l m
+l n
+l o
+l p
+l q
+@knownProminentNodes
+a
+b
+c
+d

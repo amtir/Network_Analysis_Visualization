@@ -1,0 +1,10 @@
+# A star network (7 nodes, 7 edges).
+# Used for pedagogical purpose and verification validation correctness tests.
+
+A B
+B C
+C D
+D E
+E F
+F G
+G A

@@ -1,0 +1,9 @@
+# A line network (7 nodes, 6 edges).
+# Used for pedagogical purpose and verification validation correctness tests.
+
+A B
+B C
+C D
+D E
+E F
+F G

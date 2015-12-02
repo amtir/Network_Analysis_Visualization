@@ -1,0 +1,85 @@
+# Zachary's karate club: social network of friendships between 34 members of a karate club at a US university in the 1970s. 
+# W. W. Zachary, 
+# An information flow model for conflict and fission in small groups, Journal of Anthropological Research 33, 452-473 (1977)
+
+JohnA 2
+JohnA 3
+2 3
+JohnA 4
+2 4
+3 4
+JohnA 5
+JohnA 6
+JohnA 7
+5 7
+6 7
+JohnA 8
+2 8
+3 8
+4 8
+JohnA 9
+3 9
+3 10
+JohnA 11
+5 11
+6 11
+JohnA 12
+JohnA 13
+4 13
+JohnA 14
+2 14
+3 14
+4 14
+6 17
+7 17
+JohnA 18
+2 18
+JohnA 20
+2 20
+JohnA 22
+2 22
+24 26
+25 26
+3 28
+24 28
+25 28
+3 29
+24 30
+27 30
+2 31
+9 31
+JohnA 32
+25 32
+26 32
+29 32
+3 33
+9 33
+15 33
+16 33
+19 33
+21 33
+23 33
+24 33
+30 33
+31 33
+32 33
+9 Mr.Hi
+10 Mr.Hi
+14 Mr.Hi
+15 Mr.Hi
+16 Mr.Hi
+19 Mr.Hi
+20 Mr.Hi
+21 Mr.Hi
+23 Mr.Hi
+24 Mr.Hi
+27 Mr.Hi
+28 Mr.Hi
+29 Mr.Hi
+30 Mr.Hi
+31 Mr.Hi
+32 Mr.Hi
+33 Mr.Hi
+@knownProminentNodes
+JohnA
+Mr.Hi
