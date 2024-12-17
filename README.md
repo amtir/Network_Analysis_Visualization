@@ -1,4 +1,4 @@
-# Network Analysis and Visualization Project <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noreferrer"><img src="https://github.com/detain/svg-logos/blob/master/svg/d/data-science-1.svg" alt="Machine Learning" width="40" height="40" /></a>
+# Network Analysis and Visualization Project <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noreferrer"><img src="https://github.com/detain/svg-logos/blob/master/svg/d/data-science-1.svg" alt="Machine Learning" width="60" height="60" /></a>
 
 This project applies **data science** and **unsupervised learning techniques** to study networks (e.g., social connections, biological systems) by identifying their **most important elements** (called "prominent nodes"). An interactive **web application** is provided for analyzing and visualizing these networks.
 
@@ -47,6 +47,16 @@ This project applies **data science** and **unsupervised learning techniques** t
 - Understanding **social networks**: Who are the most connected or influential people?
 - Studying **biological systems**: What proteins or cells are central to a process?
 - Analyzing **collaborative networks**: Which contributors are most important?
+
+## Screenshots
+### K-Core Decomposition Visualization
+![K-Core Decomposition](./pictures/web_app2.jpg)
+
+### Biased Random Walk Visualization
+![Biased Random Walk](./pictures/web_app3.jpg)
+
+### Network Metrics and Properties
+![Network Metrics](./pictures/web_app4.jpg)
 
 ## Who Should Use This?
 - **Data Scientists**: To explore graph-based unsupervised learning techniques.
