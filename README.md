@@ -1,4 +1,4 @@
-# Network Analysis and Visualization Project
+# Network Analysis and Visualization Project <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noreferrer"><img src="https://github.com/detain/svg-logos/blob/master/svg/d/data-science-1.svg" alt="Machine Learning" width="40" height="40" /></a>
 
 This project applies **data science** and **unsupervised learning techniques** to study networks (e.g., social connections, biological systems) by identifying their **most important elements** (called "prominent nodes"). An interactive **web application** is provided for analyzing and visualizing these networks.
 
@@ -25,10 +25,10 @@ This project applies **data science** and **unsupervised learning techniques** t
   - Graph algorithms for unsupervised learning and analysis.
   - Stability and correctness testing across multiple datasets.
 - **Web Development**:
-  - **Frontend**: HTML5, CSS3, JavaScript, jQuery
-  - **Backend**: Java EE, JSP, Servlet
-  - **Communication**: AJAX, JSON
-- **Server**: Apache Tomcat 7
+  - **Frontend**: HTML5, CSS3, JavaScript, jQuery <a href="https://jquery.com/" target="_blank" rel="noreferrer"><img src="https://github.com/bestofjs/bestofjs/blob/master/apps/bestofjs-nextjs/public/logos/jquery.svg" alt="jQuery" width="40" height="40" /></a>
+  - **Backend**: Java EE, JSP, Servlet <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://github.com/gilbarbara/logos/blob/main/logos/java.svg" alt="java" width="40" height="40" /></a>
+  - **Communication**: AJAX, JSON <a href="https://www.json.org/json-en.html" target="_blank" rel="noreferrer"><img src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/json.svg" alt="json" width="40" height="40" /></a>
+- **Server**: Apache Tomcat 7 <a href="https://tomcat.apache.org/" target="_blank" rel="noreferrer"><img src="https://github.com/gilbarbara/logos/blob/main/logos/tomcat.svg" alt="tomcat" width="40" height="40" /></a>
 
 ## How to Use
 1. **Clone the Repository**:
